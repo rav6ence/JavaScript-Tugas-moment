@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas 2</title>
+</head>
+<script language = "JavaScript">   
+<!-- 
+    function test () {
+        var kalkulator = document.kalkulator1
+        var T1 = eval (kalkulator.T1.value)
+        var T2 = eval (kalkulator.T2.value)
+        var bilangan = kalkulator.B1.value
+        if (bilangan == "+"){
+            var a = T1 + T2;
+        }else if (bilangan == "-"){
+            var a = T1 - T2;
+        }else if (bilangan == "x"){
+            var a = T1 * T2;
+        }else if (bilangan == "/"){
+            var a = T1 / T2;
+        }
+        kalkulator.hasil.value = a;
+        kalkulator.T1.value = "";
+        kalkulator.T2.value = "";
+    }  
+--> 
+</script>
+<body>
+    <form name = "kalkulator1" action = "#">
+        <p>Bil 1 <input type = "text" name = "T1" size = "20"> <br></p>
+        <p>Bil 2 <input type = "text" name = "T2" size = "20"> <br></p>
+        <p>Hasil <input type = "text" name = "hasil" size = "20"> <br></p>
+        <td><input type = "button" value = "+" name = "B1" onClick = test()></td>
+        <td><input type = "button" value = "-" name = "B1" onClick = "test()"></td>
+        <td><input type = "button" value = "x" name = "B1" onClick = "test()"></td>
+        <td><input type = "button" value = "/" name = "B1" onClick = "test()"></td>
+    </form>
+</body>
+</html>
